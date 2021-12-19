@@ -1,0 +1,41 @@
+
+.flexBoxContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 640px;
+    height: 500px;
+    margin:0 auto;
+}
+
+.calculator {
+    
+    width: 70%;
+}
+    .keys {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: lightgrey;
+        box-sizing: border-box;
+        border: red 1px solid;
+        height: 50px;
+        width: 25%;
+        float: left;
+        break-inside: avoid;
+        text-align: center;
+    }
+    .long {
+        background-color: lime;
+        float: right;
+        height: 100px !important;
+    }
+    .big {
+        width: 50% !important;
+    }
+    input {
+        height: 100px;
+        width: 98%;
+    }
+
+    
